@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+            .inter-font {
+      font-family: "Inter", serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+        </style>
+</head>
+
+<body class="inter-font">
+    <header class="w-[80%] h-20 flex justify-between m-auto items-center bg-white">
+        <p class="text-[30px] w-[7%]  text-black">cyber</p>
+        <div class="flex w-[30%] h-[50px] relative">
+            <div class="absolute left-[10px] top-[50%] translate-y-[-50%] text-gray-500 text-[16px]">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input type="text" placeholder="search" class="w-[500px] pt-[20px] pb-[20px] pr-[35px] pl-[35px] bg-gray-100
+            rounded-lg text-[16px]">
+        </div>
+        <nav class="w-[38%] left-[10%]">
+            <ul class="flex justify-between ">
+                <li><a href="/html/index.html">Home</a></li>
+                <li><a href="" class="text-gray-400">About</a></li>
+                <li><a href="" class="text-gray-400">Contact Us</a></li>
+                <li><a href="" class="text-gray-400">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="w-[13%]">
+            <div class="flex justify-between">
+                <a href=""><img src="/image/ProductDetail/Icon/32px/Favorites.svg" alt=""></a>
+                <a href=""><img src="/image/ProductDetail/Icon/32px/Cart1.svg" alt=""></a>
+                <a href=""><img src="/image/ProductDetail/Icon/32px/User.svg" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <hr class=" text-gray-300">
+    <div class="w-[80%] m-auto h-[30vh] content-center">
+        <section class="flex justify-between">
+            <article class="flex w-[30%]">
+                <div class="flex justify-center">
+                    <img src="/image/ProductDetail/Icon/24px/Location.svg" alt="">
+                </div>
+                <div class="ml-2 text-[#B2B2B2]">
+                    <p class="text-[14px]">Step1</p>
+                    <p class="text-[19px]">Address</p>
+                </div>
+            </article>
+            <article class="flex w-[30%]">
+                <div class="flex justify-center">
+                    <img src="/image/ProductDetail/Shipping.svg" alt="">
+                </div>
+                <div class="ml-2 text-[#B2B2B2]">
+                    <p class="text-[14px]">Step1</p>
+                    <p class="text-[19px]">Shipping</p>
+                </div>
+            </article>
+            <article class="flex w-[30%]">
+                <div class="flex justify-center">
+                    <img src="/image/Icon/24px/Payment.svg" alt="">
+                </div>
+                <div class="ml-2">
+                    <p class="text-[14px]">Step1</p>
+                    <p class="text-[19px]">Payment</p>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <section class="w-[80%] m-auto flex justify-between">
+        <article class="w-[48%] border-1 border-[#EBEBEB] rounded-md p-5">
+            <p class="20px font-medium">Summery</p>
+
+            <div class="flex justify-between rounded-md bg-[#F6F6F6] px-3 py-4 my-5">
+                <div class="flex justify-between w-[68%] items-center">
+                    <img src="/image/fullIphone.png" alt="" class="w-[40px] h-[40px]">
+                    <p class="text-[16px] text-black font-medium">Apple iPhone 14 Pro Max 128Gb</p>
+                </div>
+                <div class="content-center">
+                    <p class="text-[16px] font-medium">$1399</p>
+                </div>
+            </div>
+            <div class="flex justify-between rounded-md bg-[#F6F6F6] px-3 py-2 my-5">
+                <div class="flex justify-between w-[68%] items-center">
+                    <img src="/image/headphone.png" alt="" class="w-[40px] h-[40px]">
+                    <p class="text-[16px] text-black font-medium">Apple iPhone 14 Pro Max 128Gb</p>
+                </div>
+                <div class="content-center">
+                    <p class="text-[16px] font-medium">$549</p>
+                </div>
+            </div>
+            <div class="flex justify-between rounded-md bg-[#F6F6F6] px-3 py-2 my-5">
+                <div class="flex justify-between w-[68%] items-center">
+                    <img src="/image/ProductDetail/smartWatch.svg" alt="" class="w-[40px] h-[40px]">
+                    <p class="text-[16px] text-black font-medium">Apple iPhone 14 Pro Max 128Gb</p>
+                </div>
+                <div class="content-center">
+                    <p class="text-[16px] font-medium">$399</p>
+                </div>
+            </div>
+            <div>
+                <p class="text-[14px]">Address</p>
+                <p class="text-[16px] my-4">131 Dusty Townline, Jacksonville, TX 40322</p>
+            </div>
+            <div>
+                <p class="text-[14px] text-[#545454]">Shipment method</p>
+                <p class="text-[16px]">Free</p>
+            </div>
+            <div class="flex justify-between w-full text-[16px] my-5">
+                <p>Subtotal</p>
+                <p>$2347</p>
+            </div>
+            <div class="flex justify-between w-full text-[16px] my-5">
+                <p class="text-[#545454]">Estimated Tax</p>
+                <p>$50</p>
+            </div>
+            <div class="flex justify-between w-full text-[16px] my-5">
+                <p class="text-[#545454]">Estimated shipping & Handling</p>
+                <p>$29</p>
+            </div>
+            <div class="flex justify-between w-full text-[16px] my-5">
+                <p>Total</p>
+                <p>$2426</p>
+            </div>
+        </article>
+        <article class="w-[48%] px-5">
+            <p class="text-[20px]">Payment</p>
+            <ul class="flex gap-10 py-5">
+                <li class="underline underline-offset-6">Credit Card</li>
+                <li>PayPal</li>
+                <li>Paypal Credit</li>
+            </ul>
+            <div class="py-5">
+                <img src="/image/ProductDetail/creditCard.svg" alt="" class="w-[337px] h-[190px]">
+            </div>
+            <div class="py-3">
+                <input type="text" placeholder="Cardholder Name"
+                    class="border-1 border-[#CECECE] w-full rounded-md py-[12px] px-[16px]">
+            </div>
+            <div class="py-3">
+                <input type="text" placeholder="Card Number"
+                    class="border-1 border-[#CECECE] w-full rounded-md py-[12px] px-[16px]">
+            </div>
+            <div class="flex justify-between w-full py-3">
+                <div class="w-[48.5%]">
+                    <input type="text" placeholder="Exp.Date"
+                        class="border-1 border-[#CECECE] w-full rounded-md py-[12px] px-[16px]">
+                </div>
+                <div class="w-[48.5%]">
+                    <input type="text" placeholder="CVV"
+                        class="border-1 border-[#CECECE] w-full rounded-md py-[12px] px-[16px]">
+                </div>
+            </div>
+            <div class="h-10 w-full flex justify-start items-center">
+                <input type="checkbox" class=" accent-black w-5 h-5 ">
+                <label for="" class="text-[15px] ml-2">Same as billing address</label>
+            </div>
+            <div class="pt-5 flex justify-between w-full">
+                <a href="/html/step2.html" class="w-[48%]"><button
+                    class="w-full border-1 border-black rounded-md py-[12px] px-[16px] text-black bg-white">Back</button></a>
+                <a href="" class="w-[48%]"><button
+                    class="w-full border-1 border-black rounded-md py-[12px] px-[16px] text-white bg-black">Pay</button></a>
+            </div>
+        </article>
+    </section>
+
+    <section class="m-10"></section>
+
+    <footer class="w-full bg-black mt-10">
+        <section class="flex justify-between w-[80%] m-auto text-white pt-8 pb-8">
+            <article class="w-[35%]">
+                <h3 class="text-[30px]">cyber</h3>
+                <p class="text-gray-400">we are a residential interior design firm located in Portland. Our
+                    boutique-studio offers more than</p>
+            </article>
+            <article class="w-[20%]">
+                <h3 class="font-medium">Services</h3>
+                <div class="text-gray-400 leading-10">
+                    <p>Bonus Program</p>
+                    <p>Gift cards</p>
+                    <p>Credit and payment</p>
+                    <p>Service contracts</p>
+                    <p>Non-cash account</p>
+                    <p>Payment</p>
+                </div>
+
+            </article>
+            <article class="w-[20%]">
+                <h3 class="font-medium">Assistence to the buyer</h3>
+                <div class="text-gray-400 leading-10">
+                    <p>Find an order</p>
+                    <p>Terms of delevery</p>
+                    <p>Exchange and return of goods</p>
+                    <p>Gurantee</p>
+                    <p>Frequently asked questions</p>
+                    <p>Terms of use of the site</p>
+                </div>
+
+            </article>
+        </section>
+        <div class="w-[80%] m-auto text-white ">
+            <div class="w-[20%] flex justify-between pb-11">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

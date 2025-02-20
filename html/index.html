@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        .inter-font {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+    </style>
+</head>
+
+<body class="inter-font">
+    <header class="w-[80%] h-20 flex justify-between m-auto items-center bg-white">
+        <p class="text-[30px] w-[7%]  text-black">cyber</p>
+        <div class="flex w-[30%] h-[50px] relative">
+            <div class="absolute left-[10px] top-[50%] translate-y-[-50%] text-gray-500 text-[16px]">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input type="text" placeholder="search" class="w-[500px] pt-[20px] pb-[20px] pr-[35px] pl-[35px] bg-gray-100
+            rounded-lg text-[16px]">
+        </div>
+        <nav class="w-[38%] left-[10%]">
+            <ul class="flex justify-between ">
+                <li><a href="/html/index.html">Home</a></li>
+                <li><a href="" class="text-gray-400">About</a></li>
+                <li><a href="" class="text-gray-400">Contact Us</a></li>
+                <li><a href="" class="text-gray-400">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="w-[13%]">
+            <div class="flex justify-between">
+                <a href=""><img src="/image/ProductDetail/Icon/32px/Favorites.svg" alt=""></a>
+                <a href=""><img src="/image/ProductDetail/Icon/32px/Cart1.svg" alt=""></a>
+                <a href=""><img src="/image/ProductDetail/Icon/32px/User.svg" alt=""></a>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <section id="banner" class="w-full bg-black">
+            <article class=" w-[80%] flex justify-between m-auto">
+                <div class="w-[70%] mt-[120px]">
+                    <p class="font-medium text-[20px] text-gray-500">Pro.Beyond.</p>
+                    <p class="font-[10] text-[70px] text-white">IPhone 14 <span class="font-medium">Pro</span></p>
+                    <p class="text-gray-500 text-[15px] font-medium">Create to change everything for the better. For everyone</p>
+                    <a href="/html/productPage.html"><button
+                        class="border-white border-1 w-[150px] pt-[8px] pb-[8px] rounded-sm text-white mt-[20px]">Shop
+                        Now</button></a>
+                </div>
+                <div class="pt-28 h-[500px]">
+                    <img src="../image/banner.png" alt="" class="w-[250px] " class="bg-cover ">
+                </div>
+            </article>
+        </section>
+        <section id="smaller-banner" class="w-full flex justify-between">
+            <article class="w-50%">
+                <div class="flex justify-between p-0 m-0 overflow-hidden relative">
+                    <div class="w-[30%] h-[300px]  p-0 m-0">
+                        <img src="../image/Playstation.png" alt="" class="w-full h-full bg-contain">
+                    </div>
+                    <div class="w-[60%] bg-white pt-[80px]">
+                        <h3 class="text-[35px] font-medium">Playstation 5</h3>
+                        <p class="text-gray-400 w-[90%]">incredibly powerful CPUs, GPUs, and an SSD with integrated I/O
+                            will redefinde your
+                            Playstation experience. </p>
+                    </div>
+                </div>
+                <div class="flex w-[100%]">
+                    <div class="flex w-[50%] bg-gray-200 ">
+                        <div class="w-[50%]">
+                            <img src="../image/headphone.png" alt="" class="w-[200px] h-[250px] bg-cover">
+                        </div>
+                        <div class="pt-7 w-[50%] left-5">
+                            <h3 class="font-thin text-[35px]">Apple Airpods <span class="font-medium">Max</span></h3>
+                            <p class="text-gray-400 text-[15px]">Computational audio Listen, it's powerful </p>
+                        </div>
+                    </div>
+                    <div class="w-[50%] flex bg-gray-700">
+                        <div class="image">
+                            <img src="../image/sungrassesElectronic.png" alt="" class="w-[200px] h-[250px] bg-cover">
+                        </div>
+                        <div class="w-[160px] pt-7">
+                            <h3 class="text-[35px] text-white font-thin">Apple Vision <span
+                                    class="font-normal">Pro</span></h3>
+                            <p class="text-gray-400 text-[15px]">An immersive way to experience entertainment </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="w-50% flex bg-gray-200">
+                <div class="w-[60%] pt-[130px] pl-[40px]">
+                    <p class="text-[50px] w-[200px] font-thin">Macbook <span class="font-normal">Air</span></p>
+                    <p>The new 15-inch MacBook Air makes room for more of what you love with a spacious Liquid Retina
+                        display.</p>
+                    <a href="/html/productPage.html"><button
+                        class="border-1 border-gray-400 w-[130px] pt-[10px] pb-[10px] rounded-sm font-medium mt-5">Shop
+                        Now</button></a>
+                </div>
+                <div class="w-[40%] flex items-center">
+                    <img src="../image/ProductDetail/MacBook Pro 14.png" alt="" class="w-[292px] h-[502px]">
+                </div>
+
+            </article>
+        </section>
+        <section id="categories" class="w-[80%] m-auto mt-20 mb-20">
+            <article > 
+                <div class="flex justify-between">
+                    <p class="font-semibold mb-5">Brow By Category</p>
+                    <div>
+                        <button><i class="fa-solid fa-chevron-left px-5"></i></button>
+                        <button><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                
+                <div class="flex justify-between text-center">
+                    <div class="inline-block w-[150px] h-[110px] bg-[#EDEDED] content-center rounded-md">
+                        <img src="/image/ProductDetail/Icon/Phones.svg" alt="" class="m-auto">
+                          </svg>
+                        <p>Phone</p>
+                    </div>
+                    <div class="inline-block w-[150px] h-[110px] bg-[#EDEDED] content-center rounded-md">
+                        <img src="/image/ProductDetail/Icon/Smart Watches.svg" alt="" class="m-auto">
+                          </svg>
+                        <p>Smart Watches</p>
+                    </div>
+                    <div class="inline-block w-[150px] h-[110px] bg-[#EDEDED] content-center rounded-md">
+                        
+                        <img src="/image/ProductDetail/Icon/Cameras.svg" alt="" class="m-auto">
+                        <p>Cameras</p>
+                    </div>
+                    <div class="inline-block w-[150px] h-[110px] bg-[#EDEDED] content-center rounded-md">
+                        <img src="/image/ProductDetail/Icon/Headphones.svg" alt="" class="m-auto">
+                        <p>Headphones</p>
+                    </div>
+                    <div class="inline-block w-[150px] h-[110px] bg-[#EDEDED] content-center rounded-md">
+                        <img src="/image/ProductDetail/Icon/Computers.svg" alt="" class="m-auto">
+                        <p>Computers</p>
+                    </div>
+                    <div class="inline-block w-[150px] h-[110px] bg-[#EDEDED] content-center rounded-md">
+                        <img src="/image/ProductDetail/Icon/Gaming.svg" alt="" class="m-auto">
+                        <p>Gaming</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="summer-sale" class="w-full bg-[url(../image/summerSale.png)] bg-contain bg-no-repeat h-[390px] text-center pt-[100px]">
+            <article class="w-[33%] m-auto h-[100px] text-white">
+                <p class="text-[40px] font-thin">Big Summer <span class="font-medium">Sale</span></p>
+                <p class="text-[15px] text-gray-400">commodo fame vitae vitae leo mauris in. Eu consequate.</p>
+                <a href="/html/productPage.html"><button class="border-1 border-gray-400 w-[150px] pt-2 pb-2 rounded-sm mt-[25px]">Shop Now</button></a>
+            </article>
+        </section>
+    </body>
+    <footer class="w-full bg-black">
+        <section class="flex justify-between w-[80%] m-auto text-white pt-8 pb-8">
+            <article class="w-[35%]">
+                <h3 class="text-[30px]">cyber</h3>
+                <p class="text-gray-400">we are a residential interior design firm located in Portland. Our
+                    boutique-studio offers more than</p>
+            </article>
+            <article class="w-[20%]">
+                <h3 class="font-medium">Services</h3>
+                <div class="text-gray-400 leading-10">
+                    <p>Bonus Program</p>
+                    <p>Gift cards</p>
+                    <p>Credit and payment</p>
+                    <p>Service contracts</p>
+                    <p>Non-cash account</p>
+                    <p>Payment</p>
+                </div>
+
+            </article>
+            <article class="w-[20%]">
+                <h3 class="font-medium">Assistence to the buyer</h3>
+                <div class="text-gray-400 leading-10">
+                    <p>Find an order</p>
+                    <p>Terms of delevery</p>
+                    <p>Exchange and return of goods</p>
+                    <p>Gurantee</p>
+                    <p>Frequently asked questions</p>
+                    <p>Terms of use of the site</p>
+                </div>
+
+            </article>
+        </section>
+        <div class="w-[80%] m-auto text-white ">
+            <div class="w-[20%] flex justify-between pb-11">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            
+        </div>
+
+    </footer>
+</body>
+
+</html> 
